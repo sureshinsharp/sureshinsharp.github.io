@@ -1,0 +1,97 @@
+html,body{
+  padding: 0;
+  margin: 0;
+  font-family: arial;
+  font-size: 14px;
+}
+header{
+  background-color: green;
+  color: #fff;
+  padding: 15px;
+}
+#header-title span{
+  display: none;
+}
+.container{
+  padding: 15px;
+  /* border-radius: 3px; */
+  margin: 15px;
+  border: solid 1px #ccc;
+}
+.list-item-group{
+  background-color: #fff;
+  margin-top: 30px;
+  border: solid 1px #ccc;
+}
+.list-item-group ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.list-item-group li{
+  border-bottom: solid 1px #ccc;
+  padding: 10px 15px;
+}
+.list-item-group li:last-child{
+  border-bottom: none;
+}
+.form-data button,
+.form-data input{
+
+  border: none;
+  padding: 5px 10px;
+}
+.form-data button{
+color: #fff;
+  border: solid 1px green;
+  background-color: green;
+}
+.form-data input{
+  border: solid 1px #ccc;
+}
+
+.btn{
+  border: none;
+  background-color: #fff;
+  padding: 10px;
+  margin-top: 10px;
+}
+.btn-dark{
+  background-color: #333;
+  color: #fff;
+}
+.btn-block{
+  display: block;
+  width: 100%;
+}
+.selecter{
+  padding: 5px;
+}
+.header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.head-left{
+  width: 40%;
+
+}
+*{
+  box-sizing: border-box;
+}
+.search{
+  width: 250px;
+  padding: 15px 10px;
+}
+.search input{
+  padding: 5px;
+  width: 100%;
+}
+.delete{
+  background-color: #ff0000;
+  border: none;
+  color: #fff;
+  float: right;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
